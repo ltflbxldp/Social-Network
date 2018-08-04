@@ -1,0 +1,7 @@
+reset;
+model final_add_constrain.mod;
+data final_add_constrain.dat;
+option solver knitro;
+solve;
+display F;
+display x;

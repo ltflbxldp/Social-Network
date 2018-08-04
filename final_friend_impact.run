@@ -1,0 +1,7 @@
+reset;
+model final_friend_impact.mod;
+data final_friend_impact.dat;
+option solver knitro;
+solve;
+display F;
+display x;

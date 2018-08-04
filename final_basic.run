@@ -1,0 +1,7 @@
+reset;
+model final_basic.mod;
+data final_basic.dat;
+option solver knitro;
+solve;
+display F;
+display x;
